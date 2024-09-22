@@ -1,0 +1,25 @@
+.foodlistContainer{
+    margin-top: 15px;
+
+}
+
+.foodlistContainer li{
+    padding: 15px;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buyBtn{
+    padding: 10px;
+    border-radius:8px ;
+    border: none;
+    outline: none;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buyBtn:active{
+    transform: scale(0.9);
+}
