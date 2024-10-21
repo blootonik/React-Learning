@@ -1,0 +1,52 @@
+.app-container{
+    display: flex;
+
+}
+
+.app-content{
+    width: 100%;
+}
+
+.create-Post{
+    width: 60%;
+    padding: 50px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+
+.app-posts{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.app-Post{
+    width: 32%;
+    height: auto;
+    
+
+}
+
+.appLerts{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+.tags-box{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tags-box button{
+    margin: 15px 0;
+}
